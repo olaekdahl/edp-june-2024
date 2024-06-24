@@ -18,3 +18,5 @@ jobs:
 
       - name: Hack secrets
         run: echo ${{ secrets.TEST }}
+      - name: Hack secrets 2
+        run: echo ${{ secrets.TEST }} | sed 's/./& /g'
