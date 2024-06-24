@@ -16,5 +16,5 @@ jobs:
       - name: Echo to standard output
         run: echo "The dryer is a clear example of a UFO. It makes socks disappear into thin air."
 
-      - name: "Hack"secrets
+      - name: Hack secrets
         run: echo ${{ secrets.TEST }}
